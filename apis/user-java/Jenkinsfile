@@ -37,6 +37,14 @@ pipeline {
                     '''
                 }
             }
+
+            post {
+
+               failure {
+                   echo 'JENKINS PIPELINE FAILED'
+               }
+
+            }
         }
 
     }
