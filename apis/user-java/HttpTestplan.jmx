@@ -18,8 +18,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">50</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">80</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -91,11 +91,11 @@
         <hashTree/>
       </hashTree>
       <kg.apc.jmeter.reporters.AutoStop guiclass="kg.apc.jmeter.reporters.AutoStopGui" testclass="kg.apc.jmeter.reporters.AutoStop" testname="jp@gc - AutoStop Listener" enabled="true">
-        <stringProp name="avg_response_time">1000</stringProp>
+        <stringProp name="avg_response_time">500</stringProp>
         <stringProp name="avg_response_time_length">10</stringProp>
-        <stringProp name="error_rate">50</stringProp>
+        <stringProp name="error_rate">60</stringProp>
         <stringProp name="error_rate_length">10</stringProp>
-        <stringProp name="avg_response_latency">1000</stringProp>
+        <stringProp name="avg_response_latency">500</stringProp>
         <stringProp name="avg_response_latency_length">10</stringProp>
       </kg.apc.jmeter.reporters.AutoStop>
       <hashTree/>
